@@ -1,0 +1,20 @@
+{
+    "name": "AbbeyBreadcrumbs",
+    "version": "1.0.0",
+    "author": "Eric Burns",
+    "description": "Adds the namespace as the root of SubpageNavigation breadcrumbs.",
+    "license-name": "MIT",
+    "requires": {
+        "MediaWiki": ">= 1.35.3",
+        "extensions": {
+            "SubpageNavigation": "*"
+        }
+    },
+    "AutoloadClasses": {
+        "AbbeyBreadcrumbsHooks": "AbbeyBreadcrumbsHooks.php"
+    },
+    "Hooks": {
+        "BeforePageDisplay": "AbbeyBreadcrumbsHooks::onBeforePageDisplay"
+    },
+    "manifest_version": 2
+}
