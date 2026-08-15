@@ -1,0 +1,13 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local/debug files
+*.log
